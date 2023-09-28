@@ -10,5 +10,9 @@
   },
   "dependencies": {
     "@stricjs/router": "^4.2.5"
+  },
+  "scripts": {
+    "start": "bun run ./src/index.ts",
+    "start:hot": "bun run --hot ./src/index.ts"
   }
 }
