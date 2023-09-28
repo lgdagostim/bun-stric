@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:3000
+
+# @name get_index
+GET {{baseUrl}}
+
+###
+
+# @name post_json
+POST {{baseUrl}}/json
+Content-Type: application/json
+
+{
+  "name": "example",
+  "email": "example@site.com",
+  "password": "1234567890"
+}
